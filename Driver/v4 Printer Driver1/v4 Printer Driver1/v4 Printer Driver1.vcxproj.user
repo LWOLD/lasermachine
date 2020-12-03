@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <DbgengRemoteMachineName>This Computer</DbgengRemoteMachineName>
+    <RemoveDriver>True</RemoveDriver>
+    <InstallMode>InstallAndVerify</InstallMode>
+    <ScriptPath>C:\Program Files (x86)\Windows Kits\10\Testing\Tests\Utilities\DefaultDriverPackageInstallationTask.dll</ScriptPath>
+    <DbgengKernelMachineName>This Computer</DbgengKernelMachineName>
+    <ScriptName>Microsoft.DriverKit.DefaultDriverPackageInstallationClass.PerformDefaultDriverPackageInstallation</ScriptName>
+    <ScriptDeviceQuery>v4 Printer Driver1</ScriptDeviceQuery>
+    <SignMode>TestSign</SignMode>
+    <TestCertificate>CN="WDKTestCert user,132515054867388330" | D9B5F4846317E2DCAABCA1F4465E45D6FA0D1A83</TestCertificate>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <DbgengRemoteMachineName>This Computer</DbgengRemoteMachineName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DbgengRemoteMachineName>This Computer</DbgengRemoteMachineName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <DbgengRemoteMachineName>This Computer</DbgengRemoteMachineName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <DbgengRemoteMachineName>This Computer</DbgengRemoteMachineName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <DbgengRemoteMachineName>This Computer</DbgengRemoteMachineName>
+  </PropertyGroup>
+</Project>
